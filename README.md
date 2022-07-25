@@ -26,6 +26,7 @@ Here's a walkthrough of implemented user stories:
 ## Notes
 
 Describe any challenges encountered while building the app.
+
 While trying to code this app, I was not sure how to allow my application to get an excess to the mobile's external storage. Therefore, I had to do some online research and thats when I came across Dexter android library and added its permissions to the gradle script of the app. Another challenge that I faced while making this application was that I did not know how to go back from the song playing activity to the main list activity After, I checked StackOverflow thread on this topic, i added  "android:parentActivityName=.MainActivity" to my AndroidManifest.xml file and it added a back button to my Main list activity in the app.
 ## License
 
